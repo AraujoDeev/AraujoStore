@@ -1,0 +1,106 @@
+.containerCarrinho {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5px 0;
+  background-color: #ffffff;
+}
+
+.car {
+  font-family: cursive;
+  text-transform: uppercase;
+}
+
+.listaCarrinho {
+  width: 60%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.produtosCarrinho {
+  background-color: #1594fc;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 12px;
+  height: 200px;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.imgCarrinho {
+  height: 80%;
+}
+
+.btn {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+}
+
+.btn button {
+  border: 2px solid rgb(17, 0, 255);
+  border-radius: 4px;
+  cursor: pointer;
+  padding: 6px 8px;
+  width: 100%;
+  font-size: 22px;
+  margin-bottom: 8px;
+  min-height: 40px;
+  background-color: #fff;
+  font-weight: bold;
+}
+
+.btn button:active {
+  background-color: #ffffffd5;
+  border: 2px solid rgb(17, 0, 255);
+  font-size: 20px;
+  color: black;
+  font-weight: bold;
+}
+
+.btn button:nth-child(2) {
+  background-color: rgba(253, 0, 0, 0.753);
+  color: white;
+  font-weight: bold;
+  border: 2px solid red;
+}
+
+.btn button:nth-child(2):active {
+  min-height: 40px;
+  background-color: rgb(214, 0, 0);
+  font-size: 18px;
+}
+
+.btn-tela-inicial {
+  width: 15%;
+  padding: 6px 4px;
+  font-size: 22px;
+  cursor: pointer;
+  background-color: #1302ff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+}
+
+.vazio {
+  width: 60%;
+  height: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(180deg, blue, lightblue);
+  border-radius: 4px;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.carVazio {
+  width: 70px;
+  height: 70px;
+  margin-right: 10px;
+}
