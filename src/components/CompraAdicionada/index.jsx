@@ -1,5 +1,6 @@
 import React from 'react'
 import { useNavigate } from 'react-router-dom'
+import { CheckCircleOutline } from '@mui/icons-material'
 
 import './style.css'
 
@@ -18,7 +19,7 @@ const CompraAdicionada = ({
         onClick={() => setCompraAdicionada(false)}
         className="compraAdicionada"
       >
-        <img className="iconeSucesso" src="Vector.svg" alt="teste" />
+        <CheckCircleOutline sx={{ fontSize: '60px', color: '#00b37e' }} />
         <h1>Adicionado ao carrinho!</h1>
         <img src={produtoSelecionado.thumbnail} />
         <h1>{produtoSelecionado.title}</h1>
