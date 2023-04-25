@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 export const backend = axios.create({
-  baseURL: process.env.BASEURL,
+  baseURL: process.env.BASEURLAPI,
 })
 
 export const createSession = async (email, password) => {
