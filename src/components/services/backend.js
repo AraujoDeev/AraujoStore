@@ -4,6 +4,8 @@ export const backend = axios.create({
   baseURL: process.env.BASEURLAPI,
 })
 
+console.log(process.env.BASEURLAPI)
+
 export const createSession = async (email, password) => {
   try {
     const response = await backend.post('/auth/login', { email, password })
