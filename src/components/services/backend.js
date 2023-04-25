@@ -1,10 +1,10 @@
 import axios from 'axios'
 
 export const backend = axios.create({
-  baseURL: process.env.BASEURLAPI,
+  baseURL: import.meta.env.VITE_BASE_URL,
 })
 
-console.log(process.env.BASEURLAPI)
+console.log(import.meta.env.VITE_BASE_URL)
 
 export const createSession = async (email, password) => {
   try {
